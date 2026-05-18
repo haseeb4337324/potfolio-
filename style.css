@@ -1,0 +1,79 @@
+ body {
+          background: rgb(204,204,204); 
+          width: 21cm;
+          height: 29.7cm;
+          margin: 0 auto;
+        }
+
+        page {
+          background: white;
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 0.5cm;
+          position: relative;
+        }
+
+        page[size="A4"] {  
+          width: 21cm;
+          height: 29.7cm; 
+        }
+
+        @page {
+          size: 21cm 29.7cm;
+          margin: 0mm;
+        }
+        .container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.leftPanel {
+  width: 27%;
+  background-color: #484444;
+  padding: 0.7cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color :aliceblue
+}
+.rightPanel {
+  width: 73%;
+  padding: 0.7cm;
+}
+img {
+  width: 4cm;
+  height: 4cm;
+  margin-bottom: 0.7cm;
+  border-radius: 50%;
+  border: 0.15cm solid white;
+  object-fit: cover;
+  object-position: 50% 50%;
+  
+}
+.Details{
+ 
+  h2{ 
+    text-align: center;
+  }
+  h3{
+    text-align: left;
+  }
+}
+.skills{
+  h2{ text-align: center;}
+  h3{
+    text-align: left;
+  }
+}
+.Education{
+  h2{text-align: center;}
+  h3{ text-align: left;}
+}
+
