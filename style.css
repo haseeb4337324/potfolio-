@@ -11,15 +11,17 @@
           margin: 0 auto;
           margin-bottom: 0.5cm;
           position: relative;
+          
         }
 
         page[size="A4"] {  
           width: 21cm;
-          height: 29.7cm; 
+          height: 36.7cm; 
         }
 
         @page {
-          size: 21cm 29.7cm;
+          size: 21cm;
+          height: 29.7cm;
           margin: 0mm;
         }
         .container {
@@ -35,6 +37,7 @@
   height: 100%;
 }
 .leftPanel {
+  color: rgba(240, 248, 255, 0.678);
   width: 27%;
   background-color: #484444;
   padding: 0.7cm;
@@ -46,6 +49,10 @@
 .rightPanel {
   width: 73%;
   padding: 0.7cm;
+  p{
+    text-align: justify;
+  }
+ 
 }
 img {
   width: 4cm;
@@ -70,10 +77,12 @@ img {
   h2{ text-align: center;}
   h3{
     text-align: left;
+    text-align: justify;
   }
 }
 .Education{
   h2{text-align: center;}
   h3{ text-align: left;}
 }
+
 
